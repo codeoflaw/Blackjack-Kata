@@ -34,6 +34,7 @@
 		DBF854971522BB9D0008909E /* frank_static_resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DBF854911522BB9D0008909E /* frank_static_resources.bundle */; };
 		DBF854981522BB9D0008909E /* libFrank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF854921522BB9D0008909E /* libFrank.a */; };
 		DBF854991522BB9D0008909E /* libShelley.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF854931522BB9D0008909E /* libShelley.a */; };
+		DBF8549C1522BD5F0008909E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF8549A1522BD490008909E /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		DBF854911522BB9D0008909E /* frank_static_resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = frank_static_resources.bundle; sourceTree = "<group>"; };
 		DBF854921522BB9D0008909E /* libFrank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFrank.a; sourceTree = "<group>"; };
 		DBF854931522BB9D0008909E /* libShelley.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libShelley.a; sourceTree = "<group>"; };
+		DBF8549A1522BD490008909E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF8549C1522BD5F0008909E /* CFNetwork.framework in Frameworks */,
 				DBF8547E1522B9340008909E /* UIKit.framework in Frameworks */,
 				DBF8547F1522B9340008909E /* Foundation.framework in Frameworks */,
 				DBF854801522B9340008909E /* CoreGraphics.framework in Frameworks */,
@@ -137,6 +140,7 @@
 		DBF8543F1522AE8C0008909E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DBF8549A1522BD490008909E /* CFNetwork.framework */,
 				DBF854401522AE8C0008909E /* UIKit.framework */,
 				DBF854421522AE8C0008909E /* Foundation.framework */,
 				DBF854441522AE8C0008909E /* CoreGraphics.framework */,
@@ -530,12 +534,19 @@
 		DBF854851522B9340008909E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Blackjack Kata/Blackjack Kata-Prefix.pch";
 				INFOPLIST_FILE = "Blackjack Kata copy-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Frank\"",
+				);
+				OTHER_LDFLAGS = (
+					"--coverage",
+					"-ObjC",
+					"-all_load",
 				);
 				PRODUCT_NAME = "Blackjack Kata copy";
 				WRAPPER_EXTENSION = app;
@@ -545,12 +556,19 @@
 		DBF854861522B9340008909E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Blackjack Kata/Blackjack Kata-Prefix.pch";
 				INFOPLIST_FILE = "Blackjack Kata copy-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Frank\"",
+				);
+				OTHER_LDFLAGS = (
+					"--coverage",
+					"-ObjC",
+					"-all_load",
 				);
 				PRODUCT_NAME = "Blackjack Kata copy";
 				WRAPPER_EXTENSION = app;
