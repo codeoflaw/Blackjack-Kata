@@ -20,6 +20,20 @@
 		DBF854611522AE8C0008909E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF854421522AE8C0008909E /* Foundation.framework */; };
 		DBF854691522AE8C0008909E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBF854671522AE8C0008909E /* InfoPlist.strings */; };
 		DBF8546C1522AE8C0008909E /* Blackjack_KataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF8546B1522AE8C0008909E /* Blackjack_KataTests.m */; };
+		DBF8547A1522B9340008909E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF8544C1522AE8C0008909E /* main.m */; };
+		DBF8547B1522B9340008909E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF854501522AE8C0008909E /* AppDelegate.m */; };
+		DBF8547C1522B9340008909E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF854531522AE8C0008909E /* ViewController.m */; };
+		DBF8547E1522B9340008909E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF854401522AE8C0008909E /* UIKit.framework */; };
+		DBF8547F1522B9340008909E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF854421522AE8C0008909E /* Foundation.framework */; };
+		DBF854801522B9340008909E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF854441522AE8C0008909E /* CoreGraphics.framework */; };
+		DBF854821522B9340008909E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBF854491522AE8C0008909E /* InfoPlist.strings */; };
+		DBF854831522B9340008909E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBF854551522AE8C0008909E /* ViewController.xib */; };
+		DBF854941522BB9D0008909E /* my_first.feature in Resources */ = {isa = PBXBuildFile; fileRef = DBF8548C1522BB9D0008909E /* my_first.feature */; };
+		DBF854951522BB9D0008909E /* launch_steps.rb in Resources */ = {isa = PBXBuildFile; fileRef = DBF8548E1522BB9D0008909E /* launch_steps.rb */; };
+		DBF854961522BB9D0008909E /* env.rb in Resources */ = {isa = PBXBuildFile; fileRef = DBF854901522BB9D0008909E /* env.rb */; };
+		DBF854971522BB9D0008909E /* frank_static_resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DBF854911522BB9D0008909E /* frank_static_resources.bundle */; };
+		DBF854981522BB9D0008909E /* libFrank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF854921522BB9D0008909E /* libFrank.a */; };
+		DBF854991522BB9D0008909E /* libShelley.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF854931522BB9D0008909E /* libShelley.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +66,14 @@
 		DBF854681522AE8C0008909E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DBF8546A1522AE8C0008909E /* Blackjack_KataTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Blackjack_KataTests.h; sourceTree = "<group>"; };
 		DBF8546B1522AE8C0008909E /* Blackjack_KataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Blackjack_KataTests.m; sourceTree = "<group>"; };
+		DBF854871522B9340008909E /* Blackjack Kata copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blackjack Kata copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF854891522B9340008909E /* Blackjack Kata copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Blackjack Kata copy-Info.plist"; path = "/Users/cesar/Documents/Xcode Projects/Blackjack-Kata/Blackjack Kata/Blackjack Kata copy-Info.plist"; sourceTree = "<absolute>"; };
+		DBF8548C1522BB9D0008909E /* my_first.feature */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my_first.feature; sourceTree = "<group>"; };
+		DBF8548E1522BB9D0008909E /* launch_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = launch_steps.rb; sourceTree = "<group>"; };
+		DBF854901522BB9D0008909E /* env.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = env.rb; sourceTree = "<group>"; };
+		DBF854911522BB9D0008909E /* frank_static_resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = frank_static_resources.bundle; sourceTree = "<group>"; };
+		DBF854921522BB9D0008909E /* libFrank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFrank.a; sourceTree = "<group>"; };
+		DBF854931522BB9D0008909E /* libShelley.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libShelley.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,16 +97,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DBF8547D1522B9340008909E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF8547E1522B9340008909E /* UIKit.framework in Frameworks */,
+				DBF8547F1522B9340008909E /* Foundation.framework in Frameworks */,
+				DBF854801522B9340008909E /* CoreGraphics.framework in Frameworks */,
+				DBF854981522BB9D0008909E /* libFrank.a in Frameworks */,
+				DBF854991522BB9D0008909E /* libShelley.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		DBF854311522AE8C0008909E = {
 			isa = PBXGroup;
 			children = (
+				DBF8548A1522BB9D0008909E /* Frank */,
 				DBF854461522AE8C0008909E /* Blackjack Kata */,
 				DBF854641522AE8C0008909E /* Blackjack KataTests */,
 				DBF8543F1522AE8C0008909E /* Frameworks */,
 				DBF8543D1522AE8C0008909E /* Products */,
+				DBF854891522B9340008909E /* Blackjack Kata copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +129,7 @@
 			children = (
 				DBF8543C1522AE8C0008909E /* Blackjack Kata.app */,
 				DBF8545D1522AE8C0008909E /* Blackjack KataTests.octest */,
+				DBF854871522B9340008909E /* Blackjack Kata copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +188,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DBF8548A1522BB9D0008909E /* Frank */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8548B1522BB9D0008909E /* features */,
+				DBF854911522BB9D0008909E /* frank_static_resources.bundle */,
+				DBF854921522BB9D0008909E /* libFrank.a */,
+				DBF854931522BB9D0008909E /* libShelley.a */,
+			);
+			path = Frank;
+			sourceTree = "<group>";
+		};
+		DBF8548B1522BB9D0008909E /* features */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8548C1522BB9D0008909E /* my_first.feature */,
+				DBF8548D1522BB9D0008909E /* step_definitions */,
+				DBF8548F1522BB9D0008909E /* support */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		DBF8548D1522BB9D0008909E /* step_definitions */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8548E1522BB9D0008909E /* launch_steps.rb */,
+			);
+			path = step_definitions;
+			sourceTree = "<group>";
+		};
+		DBF8548F1522BB9D0008909E /* support */ = {
+			isa = PBXGroup;
+			children = (
+				DBF854901522BB9D0008909E /* env.rb */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,6 +264,23 @@
 			productReference = DBF8545D1522AE8C0008909E /* Blackjack KataTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		DBF854781522B9340008909E /* Blackjack Kata Frankified */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF854841522B9340008909E /* Build configuration list for PBXNativeTarget "Blackjack Kata Frankified" */;
+			buildPhases = (
+				DBF854791522B9340008909E /* Sources */,
+				DBF8547D1522B9340008909E /* Frameworks */,
+				DBF854811522B9340008909E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blackjack Kata Frankified";
+			productName = "Blackjack Kata";
+			productReference = DBF854871522B9340008909E /* Blackjack Kata copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -212,6 +303,7 @@
 			targets = (
 				DBF8543B1522AE8C0008909E /* Blackjack Kata */,
 				DBF8545C1522AE8C0008909E /* Blackjack KataTests */,
+				DBF854781522B9340008909E /* Blackjack Kata Frankified */,
 			);
 		};
 /* End PBXProject section */
@@ -231,6 +323,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBF854691522AE8C0008909E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF854811522B9340008909E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF854821522B9340008909E /* InfoPlist.strings in Resources */,
+				DBF854831522B9340008909E /* ViewController.xib in Resources */,
+				DBF854941522BB9D0008909E /* my_first.feature in Resources */,
+				DBF854951522BB9D0008909E /* launch_steps.rb in Resources */,
+				DBF854961522BB9D0008909E /* env.rb in Resources */,
+				DBF854971522BB9D0008909E /* frank_static_resources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +373,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBF8546C1522AE8C0008909E /* Blackjack_KataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF854791522B9340008909E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF8547A1522B9340008909E /* main.m in Sources */,
+				DBF8547B1522B9340008909E /* AppDelegate.m in Sources */,
+				DBF8547C1522B9340008909E /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +527,36 @@
 			};
 			name = Release;
 		};
+		DBF854851522B9340008909E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blackjack Kata/Blackjack Kata-Prefix.pch";
+				INFOPLIST_FILE = "Blackjack Kata copy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frank\"",
+				);
+				PRODUCT_NAME = "Blackjack Kata copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DBF854861522B9340008909E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blackjack Kata/Blackjack Kata-Prefix.pch";
+				INFOPLIST_FILE = "Blackjack Kata copy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frank\"",
+				);
+				PRODUCT_NAME = "Blackjack Kata copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -437,6 +582,14 @@
 			buildConfigurations = (
 				DBF854731522AE8C0008909E /* Debug */,
 				DBF854741522AE8C0008909E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBF854841522B9340008909E /* Build configuration list for PBXNativeTarget "Blackjack Kata Frankified" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF854851522B9340008909E /* Debug */,
+				DBF854861522B9340008909E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
