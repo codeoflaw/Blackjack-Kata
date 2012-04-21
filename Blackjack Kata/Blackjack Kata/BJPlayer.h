@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BJPlayerView.h"
 
 @class BJCard;
 
@@ -15,7 +16,10 @@
     __strong NSMutableArray *_hand;
 }
 
+@property (nonatomic, assign) id <BJPlayerViewProtocol> display;
+
 - (void)addCard:(BJCard *)newCard;
+- (NSString *) handDescription;
 - (NSInteger) handValue;
 - (BOOL) isSoftHand;
 

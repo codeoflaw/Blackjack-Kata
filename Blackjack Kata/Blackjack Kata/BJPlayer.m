@@ -10,7 +10,7 @@
 #import "BJCard.h"
 
 @implementation BJPlayer
-
+@synthesize display;
 - (id) init{
     if ((self = [super init])) {
         _hand = [[NSMutableArray alloc] init];
@@ -20,6 +20,17 @@
 
 - (void)addCard:(BJCard *)newCard{
     [_hand addObject:newCard];
+    [display updateHandWithString:[self handDescription]];
+}
+
+- (NSString *)handDescription{
+    NSMutableString *returnString = [[NSMutableString alloc] init];
+    
+    for (BJCard *card in _hand) {
+        [returnString appendString:[card faceValue]];
+    }
+    
+    return [NSString stringWithString:returnString];
 }
 
 - (NSInteger) handValue{

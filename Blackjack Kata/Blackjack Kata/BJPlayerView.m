@@ -23,7 +23,7 @@
 
 
 - (void) updateHandWithString:(NSString *)newHand{
-    if (isDealer) {
+    if (isDealer && [newHand length]>1) {
         [handDisplay setText:[newHand stringByReplacingCharactersInRange:NSRangeFromString(@"1,1") withString:@"*"]];
     }else{
         [handDisplay setText:newHand];
