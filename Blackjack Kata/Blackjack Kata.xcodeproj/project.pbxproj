@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70C535C01542F0F2006D5D9E /* BJPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535BF1542F0F2006D5D9E /* BJPlayer.m */; };
+		70C535C11542F0F2006D5D9E /* BJPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535BF1542F0F2006D5D9E /* BJPlayer.m */; };
+		70C535C21542F0F2006D5D9E /* BJPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535BF1542F0F2006D5D9E /* BJPlayer.m */; };
+		70C535C51542F1A6006D5D9E /* BJCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535C41542F1A6006D5D9E /* BJCard.m */; };
+		70C535C61542F1A6006D5D9E /* BJCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535C41542F1A6006D5D9E /* BJCard.m */; };
+		70C535C71542F1A6006D5D9E /* BJCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535C41542F1A6006D5D9E /* BJCard.m */; };
+		70C535CC1542F457006D5D9E /* BJPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535CB1542F457006D5D9E /* BJPlayerView.m */; };
+		70C535CD1542F457006D5D9E /* BJPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535CB1542F457006D5D9E /* BJPlayerView.m */; };
+		70C535CE1542F457006D5D9E /* BJPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535CB1542F457006D5D9E /* BJPlayerView.m */; };
+		70C535D71542F639006D5D9E /* BJPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535D51542F639006D5D9E /* BJPlayerTests.m */; };
+		70C535DC1542F64F006D5D9E /* BJCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535DA1542F64F006D5D9E /* BJCardTests.m */; };
+		70C535E11542F66A006D5D9E /* BJDealerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535DF1542F66A006D5D9E /* BJDealerTests.m */; };
+		70C535E51542F6B3006D5D9E /* BJDealer.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535E41542F6B3006D5D9E /* BJDealer.m */; };
+		70C535E61542F6B3006D5D9E /* BJDealer.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535E41542F6B3006D5D9E /* BJDealer.m */; };
+		70C535E71542F6B3006D5D9E /* BJDealer.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535E41542F6B3006D5D9E /* BJDealer.m */; };
+		70C535ED1542F7BE006D5D9E /* BJDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535EC1542F7BE006D5D9E /* BJDeck.m */; };
+		70C535EE1542F7BE006D5D9E /* BJDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535EC1542F7BE006D5D9E /* BJDeck.m */; };
+		70C535EF1542F7BE006D5D9E /* BJDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535EC1542F7BE006D5D9E /* BJDeck.m */; };
+		70C535F21542F964006D5D9E /* BJDeckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C535F11542F964006D5D9E /* BJDeckTests.m */; };
 		DBF854411522AE8C0008909E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF854401522AE8C0008909E /* UIKit.framework */; };
 		DBF854431522AE8C0008909E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF854421522AE8C0008909E /* Foundation.framework */; };
 		DBF854451522AE8C0008909E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF854441522AE8C0008909E /* CoreGraphics.framework */; };
@@ -19,7 +38,6 @@
 		DBF854601522AE8C0008909E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF854401522AE8C0008909E /* UIKit.framework */; };
 		DBF854611522AE8C0008909E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF854421522AE8C0008909E /* Foundation.framework */; };
 		DBF854691522AE8C0008909E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBF854671522AE8C0008909E /* InfoPlist.strings */; };
-		DBF8546C1522AE8C0008909E /* Blackjack_KataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF8546B1522AE8C0008909E /* Blackjack_KataTests.m */; };
 		DBF8547A1522B9340008909E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF8544C1522AE8C0008909E /* main.m */; };
 		DBF8547B1522B9340008909E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF854501522AE8C0008909E /* AppDelegate.m */; };
 		DBF8547C1522B9340008909E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF854531522AE8C0008909E /* ViewController.m */; };
@@ -48,6 +66,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		70C535BE1542F0F2006D5D9E /* BJPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJPlayer.h; sourceTree = "<group>"; };
+		70C535BF1542F0F2006D5D9E /* BJPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJPlayer.m; sourceTree = "<group>"; };
+		70C535C31542F1A6006D5D9E /* BJCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCard.h; sourceTree = "<group>"; };
+		70C535C41542F1A6006D5D9E /* BJCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJCard.m; sourceTree = "<group>"; };
+		70C535CA1542F457006D5D9E /* BJPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJPlayerView.h; sourceTree = "<group>"; };
+		70C535CB1542F457006D5D9E /* BJPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJPlayerView.m; sourceTree = "<group>"; };
+		70C535D41542F639006D5D9E /* BJPlayerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJPlayerTests.h; sourceTree = "<group>"; };
+		70C535D51542F639006D5D9E /* BJPlayerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJPlayerTests.m; sourceTree = "<group>"; };
+		70C535D91542F64F006D5D9E /* BJCardTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCardTests.h; sourceTree = "<group>"; };
+		70C535DA1542F64F006D5D9E /* BJCardTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJCardTests.m; sourceTree = "<group>"; };
+		70C535DE1542F66A006D5D9E /* BJDealerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDealerTests.h; sourceTree = "<group>"; };
+		70C535DF1542F66A006D5D9E /* BJDealerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDealerTests.m; sourceTree = "<group>"; };
+		70C535E31542F6B3006D5D9E /* BJDealer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDealer.h; sourceTree = "<group>"; };
+		70C535E41542F6B3006D5D9E /* BJDealer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDealer.m; sourceTree = "<group>"; };
+		70C535EA1542F70D006D5D9E /* BJDealerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDealerProtocol.h; sourceTree = "<group>"; };
+		70C535EB1542F7BE006D5D9E /* BJDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDeck.h; sourceTree = "<group>"; };
+		70C535EC1542F7BE006D5D9E /* BJDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDeck.m; sourceTree = "<group>"; };
+		70C535F01542F964006D5D9E /* BJDeckTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDeckTests.h; sourceTree = "<group>"; };
+		70C535F11542F964006D5D9E /* BJDeckTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDeckTests.m; sourceTree = "<group>"; };
 		DBF8543C1522AE8C0008909E /* Blackjack Kata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blackjack Kata.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF854401522AE8C0008909E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DBF854421522AE8C0008909E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,10 +102,7 @@
 		DBF8545E1522AE8C0008909E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		DBF854661522AE8C0008909E /* Blackjack KataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Blackjack KataTests-Info.plist"; sourceTree = "<group>"; };
 		DBF854681522AE8C0008909E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DBF8546A1522AE8C0008909E /* Blackjack_KataTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Blackjack_KataTests.h; sourceTree = "<group>"; };
-		DBF8546B1522AE8C0008909E /* Blackjack_KataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Blackjack_KataTests.m; sourceTree = "<group>"; };
 		DBF854871522B9340008909E /* Blackjack Kata copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blackjack Kata copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBF854891522B9340008909E /* Blackjack Kata copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Blackjack Kata copy-Info.plist"; path = "/Users/cesar/Documents/Xcode Projects/Blackjack-Kata/Blackjack Kata/Blackjack Kata copy-Info.plist"; sourceTree = "<absolute>"; };
 		DBF8548C1522BB9D0008909E /* my_first.feature */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my_first.feature; sourceTree = "<group>"; };
 		DBF8548E1522BB9D0008909E /* launch_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = launch_steps.rb; sourceTree = "<group>"; };
 		DBF854901522BB9D0008909E /* env.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = env.rb; sourceTree = "<group>"; };
@@ -115,6 +149,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70C535C81542F3F8006D5D9E /* Black Jack Objects */ = {
+			isa = PBXGroup;
+			children = (
+				70C535E31542F6B3006D5D9E /* BJDealer.h */,
+				70C535E41542F6B3006D5D9E /* BJDealer.m */,
+				70C535BE1542F0F2006D5D9E /* BJPlayer.h */,
+				70C535BF1542F0F2006D5D9E /* BJPlayer.m */,
+				70C535EB1542F7BE006D5D9E /* BJDeck.h */,
+				70C535EC1542F7BE006D5D9E /* BJDeck.m */,
+				70C535C31542F1A6006D5D9E /* BJCard.h */,
+				70C535C41542F1A6006D5D9E /* BJCard.m */,
+			);
+			name = "Black Jack Objects";
+			sourceTree = "<group>";
+		};
+		70C535C91542F427006D5D9E /* Black Jack View */ = {
+			isa = PBXGroup;
+			children = (
+				70C535CA1542F457006D5D9E /* BJPlayerView.h */,
+				70C535CB1542F457006D5D9E /* BJPlayerView.m */,
+			);
+			name = "Black Jack View";
+			sourceTree = "<group>";
+		};
+		70C535E81542F6E0006D5D9E /* Black Jack Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				70C535EA1542F70D006D5D9E /* BJDealerProtocol.h */,
+			);
+			name = "Black Jack Protocols";
+			sourceTree = "<group>";
+		};
 		DBF854311522AE8C0008909E = {
 			isa = PBXGroup;
 			children = (
@@ -123,7 +189,6 @@
 				DBF854641522AE8C0008909E /* Blackjack KataTests */,
 				DBF8543F1522AE8C0008909E /* Frameworks */,
 				DBF8543D1522AE8C0008909E /* Products */,
-				DBF854891522B9340008909E /* Blackjack Kata copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,6 +223,9 @@
 				DBF854531522AE8C0008909E /* ViewController.m */,
 				DBF854551522AE8C0008909E /* ViewController.xib */,
 				DBF854471522AE8C0008909E /* Supporting Files */,
+				70C535E81542F6E0006D5D9E /* Black Jack Protocols */,
+				70C535C91542F427006D5D9E /* Black Jack View */,
+				70C535C81542F3F8006D5D9E /* Black Jack Objects */,
 			);
 			path = "Blackjack Kata";
 			sourceTree = "<group>";
@@ -176,9 +244,14 @@
 		DBF854641522AE8C0008909E /* Blackjack KataTests */ = {
 			isa = PBXGroup;
 			children = (
-				DBF8546A1522AE8C0008909E /* Blackjack_KataTests.h */,
-				DBF8546B1522AE8C0008909E /* Blackjack_KataTests.m */,
 				DBF854651522AE8C0008909E /* Supporting Files */,
+				70C535DE1542F66A006D5D9E /* BJDealerTests.h */,
+				70C535D41542F639006D5D9E /* BJPlayerTests.h */,
+				70C535D51542F639006D5D9E /* BJPlayerTests.m */,
+				70C535F01542F964006D5D9E /* BJDeckTests.h */,
+				70C535F11542F964006D5D9E /* BJDeckTests.m */,
+				70C535D91542F64F006D5D9E /* BJCardTests.h */,
+				70C535DA1542F64F006D5D9E /* BJCardTests.m */,
 			);
 			path = "Blackjack KataTests";
 			sourceTree = "<group>";
@@ -188,6 +261,7 @@
 			children = (
 				DBF854661522AE8C0008909E /* Blackjack KataTests-Info.plist */,
 				DBF854671522AE8C0008909E /* InfoPlist.strings */,
+				70C535DF1542F66A006D5D9E /* BJDealerTests.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -369,6 +443,11 @@
 				DBF8544D1522AE8C0008909E /* main.m in Sources */,
 				DBF854511522AE8C0008909E /* AppDelegate.m in Sources */,
 				DBF854541522AE8C0008909E /* ViewController.m in Sources */,
+				70C535C01542F0F2006D5D9E /* BJPlayer.m in Sources */,
+				70C535C51542F1A6006D5D9E /* BJCard.m in Sources */,
+				70C535CC1542F457006D5D9E /* BJPlayerView.m in Sources */,
+				70C535E51542F6B3006D5D9E /* BJDealer.m in Sources */,
+				70C535ED1542F7BE006D5D9E /* BJDeck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +455,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBF8546C1522AE8C0008909E /* Blackjack_KataTests.m in Sources */,
+				70C535C11542F0F2006D5D9E /* BJPlayer.m in Sources */,
+				70C535C61542F1A6006D5D9E /* BJCard.m in Sources */,
+				70C535CD1542F457006D5D9E /* BJPlayerView.m in Sources */,
+				70C535D71542F639006D5D9E /* BJPlayerTests.m in Sources */,
+				70C535DC1542F64F006D5D9E /* BJCardTests.m in Sources */,
+				70C535E11542F66A006D5D9E /* BJDealerTests.m in Sources */,
+				70C535E61542F6B3006D5D9E /* BJDealer.m in Sources */,
+				70C535EE1542F7BE006D5D9E /* BJDeck.m in Sources */,
+				70C535F21542F964006D5D9E /* BJDeckTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +474,11 @@
 				DBF8547A1522B9340008909E /* main.m in Sources */,
 				DBF8547B1522B9340008909E /* AppDelegate.m in Sources */,
 				DBF8547C1522B9340008909E /* ViewController.m in Sources */,
+				70C535C21542F0F2006D5D9E /* BJPlayer.m in Sources */,
+				70C535C71542F1A6006D5D9E /* BJCard.m in Sources */,
+				70C535CE1542F457006D5D9E /* BJPlayerView.m in Sources */,
+				70C535E71542F6B3006D5D9E /* BJDealer.m in Sources */,
+				70C535EF1542F7BE006D5D9E /* BJDeck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +540,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -467,7 +559,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -594,6 +686,7 @@
 				DBF854711522AE8C0008909E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBF854721522AE8C0008909E /* Build configuration list for PBXNativeTarget "Blackjack KataTests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +695,7 @@
 				DBF854741522AE8C0008909E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBF854841522B9340008909E /* Build configuration list for PBXNativeTarget "Blackjack Kata Frankified" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +704,7 @@
 				DBF854861522B9340008909E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
